@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { useState } from "react-router-dom";
 import { mockClass } from '../data/mockClass'
 import { getStepNumber, normalizeMemberPath } from '../utils/navigation'
 import CoachDashboardContent from './CoachDashboardContent'
